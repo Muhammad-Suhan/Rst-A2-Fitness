@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.inter-font > {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+.hurricane{
+  font-family: "Hurricane", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Sheared styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: black;
+  color: whitesmoke;
+}
+
+/* Header */
+header {
+  /* width: 1080px; */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav-bar {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar .hamburg {
+  display: none;
+}
+.nav-bar .home-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e6533c;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 120%; /* 43.2px */
+}
+.nav-bar .home-icon img {
+  height: 45px;
+}
+.nav-bar .navigation {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 47px;
+}
+.nav-bar .navigation a {
+  text-decoration: none;
+  background-color: #e6533c;
+  border-radius: 46px;
+  display: flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

@@ -1,0 +1,20 @@
+@media screen and (max-width: 576px) {
+  .nav-bar {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .home-icon {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%; /* 43.2px */
+  }
+  .nav-bar .home-icon img {
+    height: 40px;
+  }
+  .nav-bar .navigation {
+    display: none;
+  }
+  .nav-bar .hamburg {
+    display: inline;
+  }
+}
