@@ -17,4 +17,25 @@
   .nav-bar .hamburg {
     display: inline;
   }
+  .banner{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .nav-bar {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .home-icon {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%; /* 43.2px */
+  }
+  .nav-bar .home-icon img {
+    height: 40px;
+  }
+  .banner{
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
