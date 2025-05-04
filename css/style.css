@@ -22,7 +22,7 @@
 
   color: whitesmoke;
 }
-body{
+body {
   background-color: black;
 }
 .btn-primary {
@@ -139,7 +139,8 @@ header {
   display: flex;
   gap: 14px;
 }
-.banner-img .badge-1, .badge-2 {
+.banner-img .badge-1,
+.badge-2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,39 +154,103 @@ header {
   backdrop-filter: blur(10px);
   text-align: start;
 }
-.badge-1 p{
+.badge-1 p {
   background-color: #72727200;
   backdrop-filter: blur(10px);
 }
-.badge-2 p{
+.badge-2 p {
   background-color: #727272;
   backdrop-filter: blur(10px);
 }
-.badge-1 >h2{
+.badge-1 > h2 {
   background-color: #727272;
   backdrop-filter: blur(10px);
 }
-.badge-2 >h2{
+.badge-2 > h2 {
   background-color: #727272;
   backdrop-filter: blur(10px);
 }
-.icon-i{
+.icon-i {
   border-radius: 100%;
 
   background-color: #e6533c;
 }
-.banner-img{
+.banner-img {
   display: flex;
-
 }
 
-.badge-1{
+.badge-1 {
   position: relative;
   top: 400px;
   left: 120px;
 }
-.badge-2{
+.badge-2 {
   position: relative;
   top: 120px;
   right: 120px;
+}
+
+/* habits */
+.habits .habits-description h1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 57.6px */
+  text-align: center;
+}
+.habits .habits-description p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.3px;
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+.habits {
+  padding-top: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.habit-cards .card {
+  text-align: center;
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+.habit-cards .card img {
+  border-radius: 100%;
+
+}
+.habit-cards .card p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: 0.3px;
+}
+.habit-cards{
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px; */
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
 }
